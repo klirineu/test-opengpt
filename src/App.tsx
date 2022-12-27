@@ -6,7 +6,7 @@ export function App() {
   const [prompt, setPrompt] = useState('')
   const [result, setResult] = useState('')
   const [resultImage, setResultImage] = useState<{ url: string }[]>([])
-  const apiKey = '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'
+  const apiKey = ''
 
   const Auth = `Bearer ${apiKey}`
 
